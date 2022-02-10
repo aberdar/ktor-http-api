@@ -13,11 +13,12 @@ repositories {
 }
 
 dependencies {
-    implementation "io.ktor:ktor-server-core:$ktor_version"
-    implementation "io.ktor:ktor-server-netty:$ktor_version"
-    implementation "ch.qos.logback:logback-classic:$logback_version"
-    implementation "io.ktor:ktor-serialization:$ktor_version"
+    implementation "io.ktor:ktor-server-core:$ktor_version" // добавляет основные компоненты Ktor в проект
+    implementation "io.ktor:ktor-server-netty:$ktor_version" // добавляет движок Netty
+    implementation "ch.qos.logback:logback-classic:$logback_version" //  предоставляет реализацию SLF4J
+    implementation "io.ktor:ktor-serialization:$ktor_version" // механизм преобразования объектов Kotlin в JSON
 
+    // позволяет тестировать части приложения Ktor без необходимости использовать весь стек HTTP в процессе
     testImplementation "io.ktor:ktor-server-test-host:$ktor_version"
     testImplementation "org.jetbrains.kotlin:kotlin-test"
 }

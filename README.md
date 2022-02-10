@@ -4,7 +4,7 @@
 # Creating HTTP API with Ktor
 ## Содержание
 
-  * [Зависимости](https://github.com/aberdar/ktor-http-api/edit/main/README.md#зависимости)
+  * [Зависимости](#зависимости)
   * [Конфигурации: application.conf и logback.xml](https://github.com/aberdar/ktor-http-api/edit/main/README.md#конфигурации-applicationconf-и-logbackxml)
   * [Точка входа](https://github.com/aberdar/ktor-http-api/edit/main/README.md#точка-входа)
   * [Маршруты клиентов](https://github.com/aberdar/ktor-http-api/edit/main/README.md#маршруты-клиентов)

@@ -5,11 +5,11 @@
 ## Содержание
 
   * [Зависимости](#зависимости)
-  * [Конфигурации: application.conf и logback.xml](https://github.com/aberdar/ktor-http-api/edit/main/README.md#конфигурации-applicationconf-и-logbackxml)
-  * [Точка входа](https://github.com/aberdar/ktor-http-api/edit/main/README.md#точка-входа)
-  * [Маршруты клиентов](https://github.com/aberdar/ktor-http-api/edit/main/README.md#маршруты-клиентов)
-  * [Заказ маршрутов](https://github.com/aberdar/ktor-http-api/edit/main/README.md#заказ-маршрутов)
-  * [Тестирование](https://github.com/aberdar/ktor-http-api/edit/main/README.md#тестирование)
+  * [Конфигурации: application.conf и logback.xml](#конфигурации-applicationconf-и-logbackxml)
+  * [Точка входа](#точка-входа)
+  * [Маршруты клиентов](#маршруты-клиентов)
+  * [Заказ маршрутов](#заказ-маршрутов)
+  * [Тестирование](#тестирование)
 
 ____
 ## Зависимости
